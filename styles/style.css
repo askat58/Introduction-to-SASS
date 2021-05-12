@@ -1,16 +1,20 @@
 header {
-  background: #ec059f;
-  color: #2e012c;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ae07c4;
+  color: #f3b6f0;
 }
 
 header button {
@@ -21,7 +25,21 @@ header button:hover {
   background: #fff;
 }
 
-.contact button {
-  background: #cf02d6;
+.contact {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #d271df;
 }
 /*# sourceMappingURL=style.css.map */
