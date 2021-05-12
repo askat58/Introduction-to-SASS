@@ -2,7 +2,9 @@ header {
   background: #ec059f;
   color: $textColor;
   display: flex;
+  height: 100vh;
   justify-content: center;
+  align-items: center;
   button {
     background: $primaryBtn;
     &:hover {
