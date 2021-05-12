@@ -2,5 +2,7 @@
 @import "./header";
 
 .contact {
-  @include flexCenter(row, #d271df);
+  @extend header;
+  background: #f82121;
+  height: 100% - 20%;
 }
