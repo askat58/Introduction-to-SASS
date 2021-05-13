@@ -1,3 +1,3 @@
 # Introduction-to-SASS
- Understanding od SASS
-## This code was creating to learn SASS myself. It is not my project. 
+ Understanding of SASS
+## I just started to code with using SASS/SCSS preprocesor. This code was creating to learn SASS by myself. It is not my personal project. 
