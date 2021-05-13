@@ -1,8 +1,12 @@
 @import "./variables";
 @import "./header";
+@import "./mixin";
 
 .contact {
   @extend header;
-  background: #f82121;
-  height: 100% - 20%;
+  background: #21c6f8;
+}
+
+.click-button {
+  @include betterLook();
 }

@@ -1,19 +1,23 @@
 header, .contact {
-  height: 100vh;
-  color: #f3b6f0;
+  height: 80vh;
   background-color: #9e017c;
 }
 
 header button, .contact button {
-  background: #cf02d6;
+  background: #f681fa;
 }
 
-header button::after, .contact button::after {
-  content: "Hellloooo";
+header button:hover, .contact button:hover {
+  color: white;
 }
 
 .contact {
-  background: #f82121;
-  height: 80%;
+  background: #21c6f8;
+}
+
+.click-button {
+  font-weight: bold;
+  padding: 30px;
+  margin: 50px;
 }
 /*# sourceMappingURL=style.css.map */

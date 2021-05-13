@@ -1,12 +1,11 @@
 header {
-  height: 100vh;
-  color: $textColor;
+  height: 80vh;
   background-color: #9e017c;
 
   button {
     background: $primaryBtn;
-    &::after {
-      content: "Hellloooo";
+    &:hover {
+      color: white;
     }
   }
 }
