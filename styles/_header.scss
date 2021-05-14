@@ -1,11 +1,11 @@
-header {
-  height: 80vh;
-  background-color: #9e017c;
+@use "./variables";
 
-  button {
+header {
+  color: $backgroundThree;
+  button{
     background: $primaryBtn;
     &:hover {
-      color: white;
+      background: $backgroundThree;
     }
   }
 }

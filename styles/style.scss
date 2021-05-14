@@ -1,10 +1,15 @@
-@import "./variables";
-@import "./header";
-@import "./mixin";
+@use "./variables";
+@use "./header";
+@use "./mixin";
 
-.contact {
-  @extend header;
-  background: #21c6f8;
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: $backgroundOne;
+
+  .contact {
+    @extend header;
+  }
 }
 
 .click-button {
